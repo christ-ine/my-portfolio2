@@ -6,7 +6,9 @@ body {
 
 #landing{
     height: 100vh;
-    /* background-image: url(); */
+    /* background-image: url("Assets/images/pawel-czerwinski-2dyR13FNg2I-unsplash.jpg"); */
+    /* background-image: url("Assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg"); */
+    background-image: url("Assets/images/ruvim-noga-pazM9TQJ2Ck-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
