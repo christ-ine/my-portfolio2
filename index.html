@@ -7,7 +7,9 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="materialize-css/dist/css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="mystyle.css" />
-
+    <script src="https://kit.fontawesome.com/1e51062e7f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -15,7 +17,7 @@
 <body>
     <!-- Navbar -->
     <div class="navbar-fixed">
-        <nav>
+        <nav class="purple">
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="#" class="brand-logo">My Portfolio</a>
@@ -38,6 +40,42 @@
         <h6 id="mainText" class="center">Full Stack Web Developer</h6>
     </div>
 
+
+    <!-- FIXED ACTION BUTTON -->
+    <div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fa fa-globe"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating grey darken-3"> <i class="fab fa-github"></i></a></li>
+            <li><a class="btn-floating blue-grey lighten-1"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- About me -->
+    <div id="intro" class="section purple">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="center header"> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+                        necessitatibus numquam?"</h2>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col s12 m12 l3">
+                    <img class="responsive-img" src="">
+                </div>
+                <dic class="col s12 m12 offset-l1 l8 ">
+                    <h5 class="center">Christine Ross <b>ABOUT ME</b></h5>
+                    <p>
+                        add bio here
+                        <br />
+                        <!-- <i>“add quote here” </i> -->
+                    </p>
+                </dic>
+            </div>
+        </div>
+    </div>
 
 
     <!--JavaScript at end of body for optimized loading-->
