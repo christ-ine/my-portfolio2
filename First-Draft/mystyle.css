@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+  }
+
+
 body {
     background-color: lavender;
     color: rgba(255,255,255,0.8);
@@ -8,7 +13,7 @@ body {
     height: 100vh;
     /* background-image: url("Assets/images/pawel-czerwinski-2dyR13FNg2I-unsplash.jpg"); */
     /* background-image: url("Assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg"); */
-    background-image: url("Assets/images/ruvim-noga-pazM9TQJ2Ck-unsplash.jpg");
+    background-image: url("Assets/images/landing-compressed.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,3 +23,4 @@ body {
 #mainText{
     margin-top: 30vh;
 }
+

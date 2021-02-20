@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+  }
+
+  @inverse-global-color-mode: none;
+
+#landing{
+    /* height: 100vh; */
+    /* background-image: url("Assets/images/pawel-czerwinski-2dyR13FNg2I-unsplash.jpg"); */
+    /* background-image: url("Assets/images/anas-alshanti-feXpdV001o4-unsplash.jpg"); */
+    background-image: url("Assets/images/landing-compressed.jpg");
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#headline{
+    color: white;
+}
+
+#navbar{
+    background-color: purple;
+}
+
+.info-btn{
+    background-color: white;
+}
+#about-me{
+    background-color: lavender;
+}
+
+#portfolio {
+    background-color: purple;
+}
+
+.port-card{
+    background-color: lavender;
+}
